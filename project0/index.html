@@ -6,12 +6,17 @@
   </head>
   <body>
     <div class="container center">
+      <div class = "header">
       <h1 class="center title">My TODO App</h1>
+    </div>
       <div class="flow-right controls">
         <span>Item count: <span id="item-count">0</span></span>
         <span>Unchecked count: <span id="unchecked-count">0</span></span>
       </div>
+      <div class = "header">
+      <input type="text" class="input" placeholder="New Todo Title...">
       <button class="button center" onClick="newTodo()">New TODO</button>
+      </div>
       <ul id="todo-list" class="todo-list"></ul>
     </div>
     <script src="./script.js"></script>
